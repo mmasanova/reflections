@@ -9,3 +9,7 @@ The staging area is an area where files that will go to next commit are added.
 Working directory contains all of the files from last commit and all of our changes 
 since then, we may only choose some of these for next commit. Repository contains 
 all commits that have been made so far.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can only add files that reflect a logical change to the staging area and then 
+commit only those.
