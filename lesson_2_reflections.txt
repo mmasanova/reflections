@@ -13,3 +13,11 @@ all commits that have been made so far.
 How can you use the staging area to make sure you have one commit per logical change?
 You can only add files that reflect a logical change to the staging area and then 
 commit only those.
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+They are useful for testing experimental features or different versions of the same 
+project. For example making an Italian version of an application without affecting
+the main branch, adding a new feature etc. Branches can be worked on separately and
+so not affect the main codebase. Once a branch is stable it can be merged into the
+main codebase.
