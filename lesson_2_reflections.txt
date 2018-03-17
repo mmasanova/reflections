@@ -34,3 +34,8 @@ the branches are merged we may not be able to do diff on susequent commits as th
 are now ordered chronologically and commits from both branches may be interleaved.
 In the graph we can identify these commits easier and use log show to see the 
 differences between that commit and its parent.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros - it saves a lot of time and effort, no risk of typos etc.
+Cons - if there are no conflicts we may not be aware of all new features added unless 
+we review the commit history.
