@@ -21,3 +21,7 @@ project. For example making an Italian version of an application without affecti
 the main branch, adding a new feature etc. Branches can be worked on separately and
 so not affect the main codebase. Once a branch is stable it can be merged into the
 main codebase.
+
+How do the diagrams help you visualize the branch structure?
+We can identify any unreachable commits and see how the branches are related and where 
+they start to differ.
