@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+An emtpy git repository gets created. In this repository we can then track
+changes to the files in the directory. Initilization is needed to let git 
+know that I want to track the changes to the files in this directory.
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+The staging area is an area where files that will go to next commit are added. 
+Working directory contains all of the files from last commit, we may only choose 
+some of these for next commit. Repository contains commited changes and it represents
+the state of the project at a specific time.
