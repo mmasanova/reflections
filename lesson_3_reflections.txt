@@ -35,4 +35,8 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I would want to make changes in a separate branch if I am working on a pull request,
+    so that I can push it to origin/master and let the repository owner decide when they
+    are ready to merge my proposed changes into the master. This way the workflow is a
+    bit lengthier, but it is easier to make sure that the master is a stable version.
+    Making changes directly in the master branch requires less steps.
